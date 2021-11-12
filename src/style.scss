@@ -1,0 +1,24 @@
+$bgr: #F9F9FB;
+$primary: #ED374D;
+
+body {
+  background-color: $bgr;
+}
+
+nav {
+  background-color: white;
+  width: 100%;
+  height: auto;
+}
+
+.f-row {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.f-col {
+  display: flex;
+  flex-direction: column;
+}
+
+@import "~bootstrap"
